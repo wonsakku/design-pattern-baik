@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.design-pattern</groupId>
-	<artifactId>com.design-pattern</artifactId>
+	<artifactId>design-pattern</artifactId>
 	<version>1.0.0</version>
 	<packaging>pom</packaging>
 	<name>design-pattern-baik</name>
@@ -14,10 +14,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<properties>
-		<java.version>1.8</java.version>
+		<java.version>11</java.version>
 	</properties>
 	<modules>
-		<module>proxy-pattern</module>
+		<module>01.creational-pattern</module>
 		<module>02.structural-pattern</module>
 	</modules>
 </project>
